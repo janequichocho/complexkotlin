@@ -65,6 +65,13 @@ enum class Philosopher(var value: Int) {
     }
 }
 
+/*
+Seneca the Younger was a roman philosopher, statesman, dramatist, and satirist during 4 BC to 65 AD. He 
+is commonly associated with the school of philosophy of Stoicism. Stoicism is an ethics philosophy that
+teaches happiness is obtained by not giving in to one's desire for pleasure or fear of pain, as well as
+favors logic over human emotion.
+ */
+
 // create an class "Command" that can be used as a function (provide an "invoke()" function)
 // that takes a single parameter ("message" of type String)
 // primary constructor should take a String argument ("prompt")
