@@ -70,7 +70,7 @@ enum class Philosopher(var value: Int) {
 // primary constructor should take a String argument ("prompt")
 // when called, the Command object should return a String containing the prompt and then the message
 class Command(val prompt: String) {
-    fun invoke(message: String): String {
+    operator fun invoke(message: String): String {
         return this.prompt + message
     }
 }
